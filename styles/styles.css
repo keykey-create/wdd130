@@ -1,3 +1,8 @@
+:root {
+    --box-shadow: 0 0 30px gray;
+    --border: 1px solid black;
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -21,9 +26,9 @@ h1 {
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: var(--border);
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: var(--box-shadow);
 }
 
 p {
@@ -47,6 +52,6 @@ aside img {
 
 footer {
     margin-top: 15px;
-    border-top: 1px solid #000;
+    border-top: var(--border);
     text-align: center;
 }
