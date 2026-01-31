@@ -100,10 +100,6 @@ h2 {
     background-color: var(--accent1-color);
 }
 
-section p {
-    color: #333;
-}
-
 .hero article img {
     float: right;
     width: 125px;
@@ -120,6 +116,7 @@ section {
 section p {
     max-width: 200px;
     height: auto;
+    color: #333;
 }
 
 .adventure {
