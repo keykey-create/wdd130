@@ -26,7 +26,23 @@ footer {
     margin: 0 auto;
 }
 
-h1,
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+}
+
+.navigation li {
+    flex: 1 1 auto;
+    padding: 20px;
+}
+
 h2 {
     margin: 16px;
     padding: 8px;
@@ -87,7 +103,6 @@ h2 {
     padding: 8px;
     top: 300px;
     background-color: var(--accent1-color);
-
 }
 
 section p {
@@ -99,6 +114,36 @@ section p {
     width: 125px;
 }
 
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+section p {
+    max-width: 200px;
+    height: auto;
+}
+
+.adventure {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 1fr 1fr;
+}
+
+.adventure img {
+    width: 125px;
+    height: auto;
+}
+
+.adventure figcaption {
+    order: 1;
+    color: var(--primary-color);
+    padding: 15px;
+}
+
 footer nav a img {
     width: 50px;
     height: auto;
@@ -106,4 +151,17 @@ footer nav a img {
 
 footer {
     background-color: var(--primary-color);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+footer nav {
+    display: flex;
+    list-style: none;
+}
+
+footer a {
+    flex: 1 1 auto;
+    padding: 20px;
 }
