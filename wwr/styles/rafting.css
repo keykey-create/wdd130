@@ -94,7 +94,8 @@ h2 {
     padding: 25px;
     text-align: center;
     opacity: 0.7;
-    color: var(--text-color-1);
+    background-color: var(--primary-color);
+    color: var(--text-color-2);
     font-family: var(--heading-font);
 }
 
@@ -138,7 +139,8 @@ section p {
     padding: 25px;
     text-align: center;
     opacity: 0.7;
-    color: var(--text-color-1);
+    background-color: var(--primary-color);
+    color: var(--text-color-2);
     font-family: var(--heading-font);
     order: 0;
     grid-column: 1/6;
