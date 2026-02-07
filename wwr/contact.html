@@ -45,7 +45,7 @@
                   referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div>
-                <form action="">
+                <form>
                     <div>
                         <label for="name">Name</label>
                         <input type="text" id="name" name="name" placeholder="Placeholder">
@@ -57,16 +57,16 @@
                     <fieldset>
                         <legend>Message Purpose</legend>
                         <div>
-                            <input type="checkbox" id="general" name="general" value="general">
+                            <input type="radio" id="general" name="general" value="general">
                             <label for="general">General Inquiry</label>
                         </div>
                         <div>
-                            <input type="checkbox" id="reservation" name="reservation"
+                            <input type="radio" id="reservation" name="reservation"
                               value="reservation">
                             <label for="reservation">Reservation Question</label>
                         </div>
                         <div>
-                            <input type="checkbox" id="website" name="website" value="website">
+                            <input type="radio" id="website" name="website" value="website">
                             <label for="website">Website Suggestion</label>
                         </div>
                     </fieldset>
@@ -78,8 +78,8 @@
                         <label for="newsletter">Subscribe to our Newsletter?</label>
                         <input type="checkbox" id="newsletter" name="newsletter">
                     </div>
+                    <button type="submit">Get in Touch!</button>
                 </form>
-                <button type="submit">Get in Touch!</button>
             </div>
         </div>
         <section class="history">
