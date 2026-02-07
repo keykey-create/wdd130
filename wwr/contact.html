@@ -28,7 +28,7 @@
     </header>
     <main>
         <Section class="info">
-            <h3>A Wave From It All</h3>
+            <h1>A Wave From It All</h1>
             <div>
                 <p>123 Fake Main Street</p>
                 <p>Fort Collins Colorado</p>
@@ -36,7 +36,7 @@
                 <p>info@AWAVE.com</p>
             </div>
         </Section>
-        <section class="contact">
+        <div class="contact">
             <div>
                 <iframe
                   src="
@@ -45,42 +45,43 @@
                   referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div>
-                <div>
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" placeholder="Placeholder">
-                </div>
-                <div>
-                    <label for="email">Email</label>
-                    <input type="text" id="email" name="email" placeholder="Placeholder">
-                </div>
-                <fieldset>
-                    <legend>Message Purpose</legend>
+                <form action="">
                     <div>
-                        <input type="checkbox" id="general" name="general" value="general">
-                        <label for="general">General Inquiry</label>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Placeholder">
                     </div>
                     <div>
-                        <input type="checkbox" id="reservation" name="reservation"
-                          value="reservation">
-                        <label for="reservation">Reservation Question</label>
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email" placeholder="Placeholder">
+                    </div>
+                    <fieldset>
+                        <legend>Message Purpose</legend>
+                        <div>
+                            <input type="checkbox" id="general" name="general" value="general">
+                            <label for="general">General Inquiry</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="reservation" name="reservation"
+                              value="reservation">
+                            <label for="reservation">Reservation Question</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="website" name="website" value="website">
+                            <label for="website">Website Suggestion</label>
+                        </div>
+                    </fieldset>
+                    <div>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Type Here"></textarea>
                     </div>
                     <div>
-                        <input type="checkbox" id="website" name="website" value="website">
-                        <label for="website">Website Suggestion</label>
+                        <label for="newsletter">Subscribe to our Newsletter?</label>
+                        <input type="checkbox" id="newsletter" name="newsletter">
                     </div>
-                </fieldset>
-                <div>
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" placeholder="Type Here"></textarea>
-                </div>
-                <div>
-                    <label for="newsletter">Subscribe to our Newsletter?</label>
-                    <input type="checkbox" id="newsletter" name="newsletter">
-                </div>
+                </form>
                 <button type="submit">Get in Touch!</button>
             </div>
-            </div>
-        </section>
+        </div>
         <section class="history">
             <h2>We Are Here To Serve You</h2>
             <figure>
