@@ -5,6 +5,8 @@
     --accent2-color: #eee;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: arial, helvetica, sans-serif;
+    --text-color-1: #000000;
+    --text-color-2: #fff;
 }
 
 * {
@@ -36,11 +38,17 @@ header {
 .navigation {
     display: flex;
     list-style: none;
+    background-color: var(--primary-color);
 }
 
 .navigation li {
     flex: 1 1 auto;
     padding: 20px;
+    background-color: var(--text-color-2);
+    margin: 0 auto;
+    display: block;
+    border-radius: .5rem;
+    padding: .5rem;
 }
 
 nav,
@@ -75,7 +83,7 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--secondary-color);
-    color: #fff;
+    color: var(--text-color-2);
     font-family: var(--heading-font);
 }
 
@@ -88,7 +96,7 @@ h2 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--secondary-color);
-    color: #eee;
+    color: var(--text-color-2);
     font-family: var(--heading-font);
 }
 
@@ -133,7 +141,7 @@ section p {
     text-align: center;
     opacity: 0.7;
     background-color: var(--secondary-color);
-    color: #fff;
+    color: var(--text-color-2);
     font-family: var(--heading-font);
     order: 0;
     grid-column: 1/6;
@@ -170,4 +178,26 @@ footer nav {
 footer a {
     flex: 1 1 auto;
     padding: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    color: var(--text-color-1);
+}
+
+.history {
+    color: var(--text-color-1);
+}
+
+.history img {
+    max-width: 150px;
+    height: auto;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    color: var(--text-color-1);
 }
