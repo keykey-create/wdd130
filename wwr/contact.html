@@ -38,13 +38,43 @@
         </section>
         <div class="contact">
             <div>
-                <iframe
-                  src="
-                  https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6063.5915918117435!2d-105.06681388164826!3d40.54610043881003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87694a4590f030ad%3A0xa9b14228b4ab4082!2sFort%20Collins%2C%20CO!5e0!3m2!1sen!2sus!4v1770432213622!5m2!1sen!2sus"
-                  allowfullscreen="" loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <div>
+                <form>
+                    <div>
+                        <label for="user-name">Name</label>
+                        <input type="text" id="user-name" name="user-name"
+                          placeholder="Placeholder">
+                    </div>
+                    <div>
+                        <label for="user-email">Email</label>
+                        <input type="text" id="user-email" name="user-email"
+                          placeholder="Placeholder">
+                    </div>
+                    <fieldset>
+                        <legend>Message Purpose</legend>
+                        <div>
+                            <input type="radio" id="general" name="purpose" value="general">
+                            <label for="general">General Inquiry</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="reservation" name="purpose" value="reservation">
+                            <label for="reservation">Reservation Question</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="website" name="purpose" value="website">
+                            <label for="website">Website Suggestion</label>
+                        </div>
+                    </fieldset>
+                    <div>
+                        <label for="user-message">Message</label>
+                        <textarea id="user-message" name="user-message"
+                          placeholder="Type Here"></textarea>
+                    </div>
+                    <div>
+                        <label for="newsletter">Subscribe to our Newsletter?</label>
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                    </div>
+                    <button type="submit">Get in Touch!</button>
+                </form>
             </div>
         </div>
         <section class="history">
