@@ -17,7 +17,7 @@
 
 body {
     font-family: var(--body-font);
-    background-color: beige;
+    background-color: var(--accent2-color);
 
 }
 
