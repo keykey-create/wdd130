@@ -16,6 +16,8 @@ h1 {
 }
 
 form {
+    margin: .5rem;
+    padding: 1rem;
     background-color: #ddd;
     color: #111;
 }
